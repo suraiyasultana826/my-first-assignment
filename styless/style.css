@@ -7,7 +7,7 @@
     background-color: pink;
 
     height: 350px;
-    width: 85%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     text-align: left;
@@ -65,8 +65,154 @@
 
 .main-section-heading {
     text-align: center;
-padding-bottom: 50px;
+    padding-bottom: 50px;
     justify-content: center;
 
 
+}
+
+.mid-section-paragraph {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.main-section-pic {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.individual-pic-one {
+    width: 364px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.pic-one {
+    width: 310px;
+    height: 428px;
+    padding-top: 70px;
+}
+
+.pic-two {
+    padding-top: 130px;
+}
+
+.pic-three {
+    padding-top: 30px;
+}
+
+.individual-pic-two {
+    width: 364px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.individual-pic-three {
+    width: 364px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.hot-deal {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+
+    background: rgba(229, 84, 115, 0.05);
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.hot-deal-title {
+    padding-top: 150px;
+}
+
+.instagram-pictures {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.instagram-picture {
+    height: 400px;
+    width: 300px;
+}
+
+.bg-image {
+    background-image: url("../styless/Flower Asset/Rectangle\ 9.png");
+    height: 300px;
+    width: 1100px;
+    background-repeat: no-repeat;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    margin-bottom: 100px;
+    padding: 50px;
+}
+
+.bg-title {
+    padding: 80px;
+    margin-left: 300px;
+}
+.bg-input{
+   
+}
+
+.insta-title {
+    margin: -10px;
+}
+
+.my-section {
+    height: 300px;
+    width: 1000px;
+    border: 5px solid pink;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-section {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-title {
+    color: white;
+}
+
+.flower-color {
+    color: #E55473;
+}
+
+input {
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
 }
